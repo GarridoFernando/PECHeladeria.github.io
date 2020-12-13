@@ -1,0 +1,179 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+/* NOMBRE*/
+
+h1 {
+  margin: 0px auto;
+  display: table;
+  font-size: 50px;
+  font-family: Brush Script MT;
+  padding: 40px 0px;
+  color: #002e5b;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*MENU DE NAVEGACION*/
+
+section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  display: table;
+  background-color: #fadeb9;
+  margin-bottom: 50px;
+}
+
+nav {
+  width: auto;
+  float: left;
+}
+nav ul {
+  display: table;
+  float: left;
+}
+nav ul li {
+  float: left;
+}
+nav ul li:first-child {
+  padding-left: 0px;
+}
+nav ul li a {
+  color: #002e5b;
+  font-size: 18px;
+  padding: 25px 20px;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+}
+nav ul li a:hover {
+  background-color: #002e5b;
+  color: #e7cb20;
+  transition: all 0.5s ease 0s;
+}
+
+
+
+/*Titulos*/
+
+h2 {
+  font-size: 18px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  font-weight: 500;
+  color: #002e5b;
+  border-bottom: 3px solid #fadeb9;
+  display: table;
+  padding-bottom: 9px;
+  margin-bottom: 1px;
+}
+
+
+
+/* footer */
+
+footer {
+  background: #144681;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+.columnas ul a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  display: block;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 300;
+  margin: 8px;  
+}
+
+a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* PRECIOS */
+
+#tablaprecios{
+ width: 1250px;
+ height: 430px; 
+ margin: 50px 10px 200px 139px;
+}
+
+.table {
+  width: 350px;
+  height: 437px;    
+  float:left;
+  background: #CACFCD;
+  margin-left: 20px;
+}
+
+.table .head {
+  font-weight: 900;
+  font-family:Brush Script MT;
+  font-size: 40px;
+  text-align: center;
+  min-height: 50px;
+  line-height: 50px;
+  background :#49F7AB;
+}
+
+.table .precios ul {
+  list-style: none;
+  padding: 20px;
+}
+
+
+.diferenciador {
+  border-bottom: 7px solid #fff;
+}
+.tamaño {
+  margin-bottom: 10px;
+  font-family: 'Chelsea Market', cursive;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  text-decoration: underline;
+}
+.precio {
+  margin-bottom: 10px;
+  font-family: 'Chelsea Market', cursive;
+  text-align: center;
+  font-size: 22px;
+  color: #002e5b;
+}
+.descripcion {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 22px;
+
+}
+

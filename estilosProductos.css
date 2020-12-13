@@ -1,0 +1,169 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+  
+/* NOMBRE*/
+
+  h1 {
+    margin: 0px auto;
+    display: table;
+    font-size: 50px;
+    font-family: Brush Script MT;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /*MENU DE NAVEGACION*/
+  
+  section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+  }
+  
+  header {
+    width: 100%;
+    display: table;
+    background-color: #fadeb9;
+    margin-bottom: 50px;
+  }
+  
+  nav {
+    width: auto;
+    float: left;
+  }
+  nav ul {
+    display: table;
+    float: left;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li:first-child {
+    padding-left: 0px;
+  }
+  nav ul li a {
+    color: #002e5b;
+    font-size: 18px;
+    padding: 25px 20px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+  nav ul li a:hover {
+    background-color: #002e5b;
+    color: #e7cb20;
+    transition: all 0.5s ease 0s;
+  }
+  
+  
+  
+  /*Titulos*/
+  
+  h2 {
+    font-size: 18px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    font-weight: 500;
+    color: #002e5b;
+    border-bottom: 3px solid #fadeb9;
+    display: table;
+    padding-bottom: 9px;
+    margin-bottom: 1px;
+  }
+  
+  
+  
+/* footer */
+  
+footer {
+    background: #144681;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.columnas ul a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+    display: block;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 8px;  
+}
+
+a:hover {
+    border-bottom: 2px solid #fff;
+}
+  
+/* productos*/
+  
+.catalogo {
+    width: 705px;
+    margin: 0px 10px 1300px 300px;
+    padding: 50px;
+}
+  
+.clear {
+    clear: both;
+}
+.fila {
+    display: block;
+    margin: 30px 0;
+}
+.item {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 20px 0;
+    width: 205px;
+    padding: 10px;
+    height: 290px;
+}
+.item img {
+    display: block;
+    margin: auto;
+    width: 190px;
+    height: 215px;
+}
+h3 {
+    font-family:Brush Script MT;
+    color: #002e5b;
+    font-size: 26px;
+    display: block;
+    border-bottom: 3px solid #fadeb9;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+button { 
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}

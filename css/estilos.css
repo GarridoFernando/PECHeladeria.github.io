@@ -1,0 +1,152 @@
+* 
+{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+  
+  
+/* NOMBRE*/
+
+h1{
+    margin:0px auto; 
+    display:table; 
+    font-size:50px; 
+    font-family:Brush Script MT;
+    padding:40px 0px; 
+    color:#002e5b; 
+    text-align:center;
+}
+  
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif; 
+}
+  
+/*MENU DE NAVEGACION*/
+  
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+
+}
+  
+header {
+    width: 100%;
+    display: table;
+    background-color: #FADEB9;
+    margin-bottom: 50px;
+} 
+nav {
+    width: auto;
+    float: left;
+}
+nav ul {
+    display: table;
+    float: left;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:first-child {
+    padding-left: 0px;
+
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #002e5b;
+    padding: 25px 20px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover {
+    background-color: #002e5b;
+    color: #E7CB20;
+    transition: all 0.5s ease 0s;
+}
+  
+  
+  
+/*Titulos*/
+  
+h2 {
+    font-size: 18px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+    font-weight: 500;
+    color: #002e5b;
+    border-bottom: 3px solid #FADEB9;
+    padding-bottom: 9px;
+    margin-bottom: 25px;
+}
+
+  
+/*Textos*/
+
+.nosotros {
+    display: flex;
+    margin-bottom: 80px;
+    width: 800px;
+    
+}
+
+.nosotros p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #F5A828;
+    text-align: justify;
+    font-family: 'Lobster', cursive;
+}
+
+
+img {
+    width: 350px;
+    height: 300px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+/* footer */
+
+footer {
+    background: #144681;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.columnas ul a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+    display: block;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 8px;  
+}
+
+a:hover {
+    border-bottom: 2px solid #fff;
+}
+  
